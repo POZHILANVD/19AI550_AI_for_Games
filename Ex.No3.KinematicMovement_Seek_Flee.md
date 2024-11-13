@@ -85,6 +85,8 @@ if __name__ == "__main__":  # Fixed __name__ and __main__
 ```
 ### Output:
 ![Screenshot 2024-08-16 143329](https://github.com/user-attachments/assets/59e0fcb8-c8ec-4568-8231-35b8ce4fb34d)
+
+
 ![Screenshot 2024-08-16 143422](https://github.com/user-attachments/assets/66aa9567-2ee4-4f51-b40b-93e48d02bca1)
 ### Result:
 Thus the simple seek and flee behavior was implemented successfully.
