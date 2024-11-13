@@ -1,9 +1,9 @@
 ## Ex.No: 4  Implementation of Snake game using Steering behaviors
-### DATE: 23.08.2024                                                                             
-### REGISTER NUMBER : 212223240118
-### AIM: 
+#### DATE: 23.08.2024                                                                             
+#### REGISTER NUMBER : 212223240118
+#### AIM: 
 To write a python program to simulate the snake game using steering behaviors
-### Algorithm:
+#### Algorithm:
 1. Start the program
 2. Import the necessary modules
 3. Initiate the pygame engine and window
@@ -15,7 +15,7 @@ To write a python program to simulate the snake game using steering behaviors
 9.  In main, create a game loop, move the snake towards the food,check the collision and increase the size
 10.  Update the display
 11.  Stop the program
- ### Program:
+ #### Program:
  ```
 import pygame
 import sys
@@ -90,9 +90,8 @@ while True:
     pygame.display.flip()
     clock.tick(FPS)
 ```
-### Output:
+#### Output:
 ![Screenshot 2024-08-16 142826](https://github.com/user-attachments/assets/46eca225-d9c6-43dc-b293-9caee7c86b00)
-
 
 ![Screenshot 2024-08-16 142915](https://github.com/user-attachments/assets/50dcfe1c-74b2-4829-9f6b-0a47c063f328)
 ### Result:
