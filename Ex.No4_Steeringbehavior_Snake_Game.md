@@ -93,7 +93,7 @@ while True:
 ### Output:
 ![Screenshot 2024-08-16 142826](https://github.com/user-attachments/assets/46eca225-d9c6-43dc-b293-9caee7c86b00)
 
-![Screenshot 2024-08-16 142915](https://github.com/user-attachments/assets/50dcfe1c-74b2-4829-9f6b-0a47c063f328)
 
+![Screenshot 2024-08-16 142915](https://github.com/user-attachments/assets/50dcfe1c-74b2-4829-9f6b-0a47c063f328)
 ### Result:
 Thus the simple snake game was implemented.
