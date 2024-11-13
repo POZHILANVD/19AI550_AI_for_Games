@@ -1,4 +1,4 @@
-# Ex.No: 3  Implementation of Kinematic movement seek and flee behaviors 
+## Ex.No: 3  Implementation of Kinematic movement seek and flee behaviors 
 ### DATE:16.08.2024                                                                            
 ### REGISTER NUMBER : 212223240118
 ### AIM: 
@@ -20,7 +20,6 @@ To write a python program to simulate the process of seek and flee behaviors usi
 import pygame
 import math
 import sys
-
 # Initialize Pygame
 pygame.init()
 # Set up display
@@ -40,36 +39,28 @@ class Character:
         self.position = pygame.Vector2(x, y)
         self.velocity = pygame.Vector2(0, 0)
         self.color = color
-
     def seek(self, target):
         desired_velocity = (target - self.position).normalize() * MAX_SPEED
         self.velocity = desired_velocity
-
     def flee(self, target):
         desired_velocity = (self.position - target).normalize() * MAX_SPEED
         self.velocity = desired_velocity
-
     def update(self):
         self.position += self.velocity
-
     def draw(self, surface):
         pygame.draw.circle(surface, self.color, (int(self.position.x), int(self.position.y)), CHAR_SIZE)
-
 # Main function
 def main():
     clock = pygame.time.Clock()
     player = Character(WIDTH // 2, HEIGHT // 2, WHITE)
     target = Character(WIDTH // 4, HEIGHT // 4, RED)
-
     running = True
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-
         # Get mouse position
         mouse_pos = pygame.Vector2(pygame.mouse.get_pos())
-
         # Basic controls: seek or flee based on mouse button
         if pygame.mouse.get_pressed()[0]:  # Left button - Seek
             player.seek(mouse_pos)
