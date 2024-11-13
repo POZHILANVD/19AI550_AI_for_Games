@@ -1,5 +1,5 @@
 # Ex.No: 11  Mini Project 
-### DATE:  15.10.2024                          
+### DATE:  25.10.2024                          
 #### REGISTER NUMBER : 212223240118
 ### AIM: 
 To write a python program to simulate the game Space-Invaders-Pygame-master using ai technique  Finite State Machine.
